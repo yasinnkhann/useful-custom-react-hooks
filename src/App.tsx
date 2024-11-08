@@ -14,21 +14,9 @@ import GeolocationComponent from './useGeolocation/GeolocationComponent';
 import OnScreenComponentComponent from './useOnScreen/OnScreenComponent';
 import SizeComponent from './useSize/SizeComponent';
 import CopyToClipboardComponent from './useCopyToClipboard/CopyToClipboardComponent';
-
-// import UpdateEffectComponent from './4-useUpdateEffect/UpdateEffectComponent';
-// import ArrayComponent from './5-useArray/ArrayComponent';
-// import PreviousComponent from './6-usePrevious/PreviousComponent';
-// import StateWithHistoryComponent from './7-useStateWithHistory/StateWithHistoryComponent';
-// import ScriptComponent from './11-useScript/ScriptComponent';
-// import DeepCompareEffectComponent from './12-useDeepCompareEffect/DeepCompareEffectComponent';
-// import StateWithValidationComponent from './18-useStateWithValidation/StateWithValidationComponent';
-// import EffectOnceComponent from './20-useEffectOnce/EffectOnceComponent';
-// import DarkModeComponent from './22-useDarkMode/DarkModeComponent';
-// import TranslationComponent from './25-useTranslation/TranslationComponent';
-// import OnlineStatusComponent from './26-useOnlineStatus/OnlineStatusComponent';
-// import RenderCountComponent from './27-useRenderCount/RenderCountComponent';
-// import DebugInformationComponent from './28-useDebugInformation/DebugInformationComponent';
-// import LongPressComponent from './30-useLongPress.js/LongPressComponent';
+import EffectOnceComponent from './useEffectOnce/EffectOnceComponent';
+import LongPressComponent from './useLongPress.js/LongPressComponent';
+import StateWithValidationComponent from './useStateWithValidation/StateWithValidationComponent';
 
 function App() {
 	return (
@@ -49,21 +37,9 @@ function App() {
 			<OnScreenComponentComponent />
 			<SizeComponent />
 			<CopyToClipboardComponent />
-
-			{/* <UpdateEffectComponent /> */}
-			{/* <ArrayComponent /> */}
-			{/* <PreviousComponent /> */}
-			{/* <StateWithHistoryComponent /> */}
-			{/* <ScriptComponent /> */}
-			{/* <DeepCompareEffectComponent /> */}
-			{/* <StateWithValidationComponent /> */}
-			{/* <EffectOnceComponent /> */}
-			{/* <DarkModeComponent /> */}
-			{/* <TranslationComponent /> */}
-			{/* <OnlineStatusComponent /> */}
-			{/* <RenderCountComponent /> */}
-			{/* <DebugInformationComponent /> */}
-			{/* <LongPressComponent /> */}
+			<EffectOnceComponent />
+			<LongPressComponent />
+			<StateWithValidationComponent />
 		</>
 	);
 }
