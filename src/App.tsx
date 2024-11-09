@@ -17,6 +17,8 @@ import CopyToClipboardComponent from './useCopyToClipboard/CopyToClipboardCompon
 import EffectOnceComponent from './useEffectOnce/EffectOnceComponent';
 import LongPressComponent from './useLongPress.js/LongPressComponent';
 import StateWithValidationComponent from './useStateWithValidation/StateWithValidationComponent';
+import FormComponent from './useForm/FormComponent';
+import InputComponent from './useInput/InputComponent';
 
 function App() {
 	return (
@@ -40,6 +42,8 @@ function App() {
 			<EffectOnceComponent />
 			<LongPressComponent />
 			<StateWithValidationComponent />
+			<FormComponent />
+			<InputComponent />
 		</>
 	);
 }
